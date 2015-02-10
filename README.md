@@ -1,4 +1,4 @@
-# Echo Protocol (`RFC 862`) implementation in Elixir
+# Echo Protocol in Elixir
 
 ## TODO
 
