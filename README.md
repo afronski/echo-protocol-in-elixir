@@ -3,14 +3,8 @@
 ## TODO
 
 - Process Visualization
-- Tracing
-- Client (multiple processes)
-- Server (pattern matching, OTP)
-- OTP:
-  - Application
-  - Supervisor
-  - `gen_tcp` / `gen_udp`
-
+- Client (multiple processes, spawn, pipes, message passing)
+- Server (pattern matching, pipes, supervisor, one-for-one restart strategy)
 
 ## Specification - `RFC 862`
 
