@@ -9,7 +9,7 @@ defmodule EchoProtocol.Mixfile do
   end
 
   def application do
-    [ mod: { EchoProtocol, [] } ]
+    []
   end
 
   defp deps do
