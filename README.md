@@ -1,11 +1,5 @@
 # Echo Protocol in Elixir
 
-## TODO
-
-- Process Visualization
-- Client (multiple processes, spawn, pipes, message passing)
-- Server (pattern matching, pipes, supervisor, one-for-one restart strategy)
-
 ## Specification - `RFC 862`
 
 ```
@@ -23,11 +17,4 @@ TCP Based Echo Service
    A server listens for TCP connections on TCP port 7.  Once a
    connection is established any data received is sent back.  This
    continues until the calling user terminates the connection.
-
-UDP Based Echo Service
-
-   Another echo service is defined as a datagram based application on
-   UDP.  A server listens for UDP datagrams on UDP port 7.  When a
-   datagram is received, the data from it is sent back in an answering
-   datagram.
 ```
